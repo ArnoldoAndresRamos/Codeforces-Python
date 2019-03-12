@@ -7,7 +7,6 @@ n = int(input())
 array =list(map(int,input().split(" ")))
 i=0; suma=0
 while i<n:
-    print(array[i])
     suma=suma+array[i]
     i=i+1    
 if suma>0:
